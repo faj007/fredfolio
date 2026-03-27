@@ -59,7 +59,7 @@ function Creation() {
                 key={item.id}
                 className="gallery-item"
                 style={{
-                  "--item-image": `url(${item.image})`,
+                  ["--item-image" as any]: `url(${item.image})`,
                 }}
               />
             ))}
