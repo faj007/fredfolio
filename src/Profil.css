@@ -1,0 +1,7 @@
+.profiltext {
+color: #0d0d0f; /* couleur principale */
+/*-webkit-text-stroke: 1px #aaa;  contour */
+text-shadow:
+-2px 0px 0 #ffffff,  
+0px 2px 0 #ffffff;    
+}
