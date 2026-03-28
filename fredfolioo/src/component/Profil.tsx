@@ -22,7 +22,7 @@ export default function Profil() {
     delay: 4,
     opacity: 1,
     scrambleText: {
-      text: "DEVELOPPEUR WEB JUNIOR.",
+      text: "DEVELOPPEUR WEB.",
       rightToLeft: false,
       chars: "uppercase",
     },
