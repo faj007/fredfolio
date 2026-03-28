@@ -1,5 +1,4 @@
 "use client"
-import '../Profil.css';
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrambleTextPlugin } from "gsap/ScrambleTextPlugin";

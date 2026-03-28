@@ -4,16 +4,6 @@ justify-self: center;
 align-self: center;
 }
 
-.techno {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
-  flex-wrap: wrap;
-  padding: 48px;
-}
 
 .icon-outer {
   position: relative;
@@ -328,5 +318,3 @@ align-self: center;
 
 
 
-
- 

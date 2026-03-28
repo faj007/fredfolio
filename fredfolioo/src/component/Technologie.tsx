@@ -18,7 +18,7 @@ function Technologie() {
 
   return (
     <>
-    <section className="bg-[#0d0d0f]">
+    <section>
     <div 
       data-aos="zoom-in"
       className="text-center mb-5 md:mb-16">
@@ -27,7 +27,7 @@ function Technologie() {
            Technologies utilisées<br />
         </h2>
       </div>
-      <div className='techno'>
+      <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-6 px-4 justify-items-center'>
            <div className="demo"> 
       
     <div className="icon-outer gold">

@@ -79,7 +79,10 @@ h1,
 h2 {
   font-family: var(--heading);
   font-weight: 500;
-  color: var(--text-h);
+  color: #0d0d0f;
+  text-shadow:
+    -2px 0px 0 #fff,
+    0px 2px 0 #fff;
 }
 
 h1 {
@@ -109,16 +112,53 @@ h2 {
     0px 2px 0 #ffffff;
 }
 
-/* .projet {
-  --s: 80px;
-  --c1: #795548;
-  --c2: #fff;
-  
-  --_g:/calc(3*var(--s)) calc(2*var(--s)) 
-    conic-gradient(at 33% 25%,#0000 75%,var(--c1) 0);
-  background:
-     calc(var(--s)/-2) calc(var(--s)/4) var(--_g),
-     calc(var(--s)/2) calc(5*var(--s)/4) var(--_g),
-    radial-gradient(var(--c1) 34%,var(--c2) 36%) 0 0/var(--s) var(--s);
-} */
 
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Full height */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* BACKGROUND */
+.area {
+  position: fixed;
+  inset: 0; /* top:0; left:0; right:0; bottom:0 */
+  background: #000000;
+  z-index: -10;
+  overflow: hidden;
+}
+
+/* BULLES */
+.circles li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  background: rgba(255,255,255,0.08);
+  animation: floatUp 25s linear infinite;
+  bottom: -150px;
+  border-radius: 50%;
+}
+
+/* Exemple de tailles et positions */
+.circles li:nth-child(1){left:25%; width:80px; height:80px; animation-delay:0s;}
+.circles li:nth-child(2){left:10%; width:20px; height:20px; animation-delay:2s; animation-duration:12s;}
+.circles li:nth-child(3){left:70%; width:20px; height:20px; animation-delay:4s;}
+.circles li:nth-child(4){left:40%; width:60px; height:60px; animation-delay:0s; animation-duration:18s;}
+.circles li:nth-child(5){left:65%; width:20px; height:20px; animation-delay:0s;}
+.circles li:nth-child(6){left:75%; width:110px; height:110px; animation-delay:3s;}
+.circles li:nth-child(7){left:35%; width:150px; height:150px; animation-delay:7s;}
+.circles li:nth-child(8){left:50%; width:25px; height:25px; animation-delay:15s; animation-duration:45s;}
+.circles li:nth-child(9){left:20%; width:15px; height:15px; animation-delay:2s; animation-duration:35s;}
+.circles li:nth-child(10){left:85%; width:150px; height:150px; animation-delay:0s; animation-duration:11s;}
+
+@keyframes floatUp {
+  0% { transform: translateY(0) scale(1); opacity: 0.8; }
+  100% { transform: translateY(-1000px) scale(1.2); opacity: 0; }
+}

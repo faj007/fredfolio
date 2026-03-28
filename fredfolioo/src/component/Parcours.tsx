@@ -1,4 +1,3 @@
-import '../Creation.css'
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -16,7 +15,7 @@ function Parcours() {
     
   return (
     <>
-     <section className="bg-stoner">
+     <section>
   <div className="py-20 md:py-40 px-6 w-full md:container mx-auto">
 
     <div data-aos="zoom-in" className="text-center mb-10 md:mb-20">
