@@ -16,7 +16,7 @@
 }
 
 .cards {
-	position: relative;
+	position: absolute;
 	width: 14rem;
 	height: 18rem;
 	top: 40%;
@@ -32,7 +32,7 @@
 	height: 18rem;
 	text-align: center;
 	font-size: 2rem;
-	position: relative;
+	position: absolute;
 	top: 0;
 	left: 0;
 	border-radius: 0.8rem;
@@ -57,7 +57,7 @@
 }
 
 .actions {
-	position: relative;
+	position: absolute;
 	bottom: 25px;
 	left: 50%;
 	transform: translateX(-50%);
