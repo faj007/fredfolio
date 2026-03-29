@@ -16,7 +16,7 @@ export default function Competence() {
     const cards = gsap.utils.toArray<HTMLLIElement>(".cards li");
     const seamlessLoop = buildSeamlessLoop(cards, spacing);
     const visibleCards = 2; 
-    // const loopDuration = visibleCards * spacing;
+    const loopDuration = visibleCards * spacing;
 
     const scrub = gsap.to(seamlessLoop, {
       totalTime: 0,
@@ -28,7 +28,7 @@ export default function Competence() {
     const trigger = ScrollTrigger.create({
       trigger: ".competence",   
       start: "top top",          // quand le top de la section atteint le top de la fenêtre
-      end: () => "+=150%" , 
+      end: () => "+=" + (loopDuration * 1000), 
       pin: true,                 // fixe la section pendant le scroll
       pinSpacing: true,
       onUpdate(self) {

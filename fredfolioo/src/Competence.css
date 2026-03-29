@@ -10,16 +10,30 @@
 	position: relative;
 	width: 100%;
 	height: 100vh;
-	overflow: visible;
+	overflow: hidden;
 }
 
 .cards {
 	position: absolute;
 	width: 14rem;
 	height: 18rem;
-	top: 50%;
+	top: 40%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+
+@media (max-width: 768px){
+	.competence{
+		height: 100dvh;
+		overflow: visible;
+	}	
+	.gallery {
+		height: 100dvh;
+	}
+	.cards {
+		top: 50%;
+		transform: translate(-50%, -50%) scale(0.85); 
+	}
 }
 
 .cards li {
