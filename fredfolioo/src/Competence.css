@@ -32,7 +32,7 @@
 	height: 18rem;
 	text-align: center;
 	font-size: 2rem;
-	position: absolute;
+	position: relative;
 	top: 0;
 	left: 0;
 	border-radius: 0.8rem;
@@ -57,7 +57,7 @@
 }
 
 .actions {
-	position: absolute;
+	position: relative;
 	bottom: 25px;
 	left: 50%;
 	transform: translateX(-50%);
