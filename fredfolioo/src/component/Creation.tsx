@@ -1,4 +1,4 @@
-import "../App.css"
+import "../Creation.css"
 
 function Creation() {
 

@@ -73,8 +73,7 @@ function Experience() {
     </div>
 
     <div className="relative sm:col-span-2 md:col-span-1">
-      <div className="absolute top-1 left-1 w-full h-50 bg-white rounded-lg"></div>
-
+<div className="absolute top-1 left-1 h-full sm:h-50 bg-white rounded-lg"></div>
       <div className="relative p-5 bg-neutral-950 border-2 border-white rounded-lg">
         <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white">
           Membre d'un club d'anglais
