@@ -1,4 +1,7 @@
 import "../Creation.css"
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Creation() {
 
@@ -10,12 +13,20 @@ function Creation() {
     { id: 3, image: "/creation/crea5.jpeg" },
     { id: 3, image: "/creation/crea6.jpeg" },
   ]
+   useEffect(() => {
+      AOS.init({
+        once: true,      
+        mirror: true,     
+        offset: 120,     
+        duration: 800 ,     
+      });
+    }, []);
 
   return (
     <div id="example">
 
       <section className="intro-section">
-        <h1 className="fff text-4xl text-center md:text-6xl text-[#0d0d0f] leading-10 mb-6 md:mb-10">
+        <h1 data-aos="zoom-in"data-aos-duration="3000" className="fff text-4xl text-center md:text-6xl text-[#0d0d0f] leading-10 mb-6 md:mb-10">
           CRÉATION
         </h1>
       </section>

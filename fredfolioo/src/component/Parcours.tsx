@@ -18,7 +18,7 @@ function Parcours() {
      <section>
   <div className="py-20 md:py-40 px-6 w-full md:container mx-auto">
 
-    <div data-aos="zoom-in" className="text-center mb-10 md:mb-20">
+    <div data-aos="zoom-in"data-aos-duration="3000" className="text-center mb-10 md:mb-20">
       <h2 className="fff text-3xl sm:text-4xl md:text-6xl leading-tight">
         PARCOURS SCOLAIRE
       </h2>

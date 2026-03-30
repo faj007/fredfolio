@@ -112,7 +112,7 @@ export default function Competence() {
 
   return (
     <section className='competence'>
-      <div data-aos="fade-down"data-aos-duration="3000" className='comph2 text-center mb-5  md:mb-16 pt-5'>
+      <div data-aos="zoom-in"data-aos-duration="3000" className='comph2 text-center mb-5  md:mb-16 pt-5'>
         <h2 className=' text-4xl md:text-6xl text-[#0d0d0f] leading-10 mb-6 md:mb-10'>COMPÉTENCES</h2>
       </div>
       <div className="gallery">

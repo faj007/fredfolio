@@ -21,7 +21,7 @@ function Experience() {
      <div className="relative max-w-6xl px-6 mx-auto mt-10">
 
 
-  <div data-aos="fade-up"data-aos-duration="3000" className="tech text-center mb-10 md:mb-16">
+  <div data-aos="zoom-in"data-aos-duration="3000" className="tech text-center mb-10 md:mb-16">
     <h2 className="text-3xl sm:text-4xl md:text-6xl text-[#0d0d0f]">
       EXPÉRIENCE
     </h2>
