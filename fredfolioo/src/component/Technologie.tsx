@@ -92,14 +92,14 @@ function Technologie() {
     <span className="label">JavaScript</span>
   </div>
 
-  <div className="demo">
+  {/* <div className="demo">
     <div data-aos="zoom-in"data-aos-duration="3000" className="icon-outer cyber-php">
       <div className="icon-mid"><div className="icon-face">
         <img src="/competence/php.svg" alt="" />
                     </div></div>
     </div>
     <span className="label">Php</span>
-  </div>
+  </div> */}
 
    <div className="demo">
     <div data-aos="zoom-in"data-aos-duration="3000" className="icon-outer cyber-react">
@@ -137,14 +137,14 @@ function Technologie() {
     <span className="label">Node js</span>
   </div>
 
-   <div className="demo">
+   {/* <div className="demo">
     <div data-aos="zoom-in"data-aos-duration="3000" className="icon-outer cyber-red">
       <div className="icon-mid"><div className="icon-face">
         <img src="/competence/laravel.svg" alt="" />
                     </div></div>
     </div>
     <span className="label">Laravel</span>
-  </div>
+  </div> */}
 
    <div className="demo">
     <div data-aos="zoom-in"data-aos-duration="3000" className="icon-outer cyber-sql">
